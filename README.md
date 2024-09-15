@@ -11,6 +11,7 @@ Projeto para estudo de criação de automações com os serviços AWS dentro do 
     dotenv.config();
     await handler();
 ```
+# Implementação (sem CI/CD)
 1. Zipe todo conteúdo, inclusive modules, sem criar subdiretório
 2. Crie uma function no Lambda, configure as ENVs e escolha upload do código por .zip
 3. O agendamento da execução é feito usando cronjob no EventBridge
