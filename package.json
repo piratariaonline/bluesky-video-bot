@@ -1,0 +1,22 @@
+{
+  "name": "focadameianoitebot",
+  "version": "1.0.0",
+  "description": "Script para AWS Lambda + Node.js que posta um vídeo de uma foquinha tocando sax no Bluesky, todo dia à meia noite.",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "local": "node dev.js"
+  },
+  "keywords": [],
+  "author": "piratariaonline.dev",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "@atproto/api": "^0.13.7",
+    "@aws-sdk/client-s3": "^3.651.1",
+    "process": "^0.11.10"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "dotenv": "^16.4.5"
+  }
+}
